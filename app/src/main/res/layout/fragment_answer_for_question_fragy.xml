@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.askq.Answer_for_question_fragy">
+    <TextView
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="80sp" />
+    <EditText
+        android:id="@+id/answer_of_the_question"
+        android:textColor="#000000"
+        android:hint="Write the answer to the question here"
+        android:background="@drawable/shape"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="360sp" />
+    <Button
+        android:id="@+id/submit_answer"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:text="Done"
+        android:background="@drawable/btnshape"
+        android:layout_marginTop="5sp"
+        android:layout_width="90sp"
+        android:layout_height="50sp" />
+
+</LinearLayout>

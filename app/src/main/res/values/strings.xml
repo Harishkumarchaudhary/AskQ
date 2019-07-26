@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name"></string>
+    <!--Originally here was AskQ but toolbar uses it as title which is convenient, so i removed it-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="spinner_questioncategories">
+        <item>Education</item>
+        <item>Sports</item>
+        <item>General Life</item>
+        <item>Celebrities</item>
+        <item>Entertainment</item>
+        <item>Politics</item>
+        <item>Exams</item>
+        <item>Schools</item>
+        <item>University</item>
+        <item>Admissions</item>
+        <item>Animals</item>
+        <item>Others</item>
+    </string-array>
+</resources>

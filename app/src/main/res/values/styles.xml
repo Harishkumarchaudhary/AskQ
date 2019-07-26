@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--color of app bar-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--color of status bar-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--color of text fields-->
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+    <!--By doing AppTheme.abc i am extending/inheriting the properties of apptheme and adding additional functionalities-->
+    <style name="AppTheme.abc" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+</resources>

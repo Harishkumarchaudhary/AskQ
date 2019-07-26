@@ -1,0 +1,76 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.dell.askq.logindetails">
+    <android.support.design.widget.AppBarLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="60sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="25sp"
+                android:paddingTop="10sp"
+                android:paddingRight="10sp"
+                android:textAlignment="center"
+                android:text="AskQ"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="55sp" />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="100sp"
+            android:id="@+id/username"
+            android:hint="Enter your name"
+            android:layout_width="match_parent"
+            android:layout_height="45sp" />
+        <EditText
+            android:hint="Enter Email here"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20sp"
+            android:id="@+id/enter_email"
+            android:layout_width="match_parent"
+            android:layout_height="45sp" />
+        <EditText
+            android:hint="Enter password here"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20sp"
+            android:id="@+id/enter_password"
+            android:layout_width="match_parent"
+            android:layout_height="45sp" />
+        <LinearLayout
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginLeft="80sp"
+                android:id="@+id/login"
+                android:background="@drawable/btnshape"
+                android:textColor="#FFFFFF"
+                android:text="Login"
+                android:layout_width="75sp"
+                android:layout_height="50sp" />
+            <Button
+                android:textColor="#FFFFFF"
+                android:background="@drawable/btnshape"
+                android:text="SignUp"
+                android:layout_marginLeft="10sp"
+                android:id="@+id/signup"
+                android:layout_width="75sp"
+                android:layout_height="50sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
